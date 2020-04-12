@@ -47,7 +47,6 @@
 		09E49B4324423C4300BA4593 /* ZMPostManagmentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B4224423C4300BA4593 /* ZMPostManagmentServiceTests.swift */; };
 		09E49B49244248B300BA4593 /* ZMUserManagmentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B48244248B300BA4593 /* ZMUserManagmentServiceTests.swift */; };
 		09E49B4F24424B6B00BA4593 /* ZMCommentManagmentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B4E24424B6B00BA4593 /* ZMCommentManagmentServiceTests.swift */; };
-		09E49B5C24426C4A00BA4593 /* ZMConnectivityHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B5B24426C4A00BA4593 /* ZMConnectivityHandler.swift */; };
 		09E49B5E244272C700BA4593 /* ZMPostManagmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B5D244272C700BA4593 /* ZMPostManagmentService.swift */; };
 		09E49B6024428C0300BA4593 /* ZMDataManagerMockNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B5F24428C0300BA4593 /* ZMDataManagerMockNetworkProvider.swift */; };
 		09E49B6924428C7D00BA4593 /* mockNilPost.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B6224428C7D00BA4593 /* mockNilPost.json */; };
@@ -119,7 +118,6 @@
 		09E49B4224423C4300BA4593 /* ZMPostManagmentServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostManagmentServiceTests.swift; sourceTree = "<group>"; };
 		09E49B48244248B300BA4593 /* ZMUserManagmentServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMUserManagmentServiceTests.swift; sourceTree = "<group>"; };
 		09E49B4E24424B6B00BA4593 /* ZMCommentManagmentServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMCommentManagmentServiceTests.swift; sourceTree = "<group>"; };
-		09E49B5B24426C4A00BA4593 /* ZMConnectivityHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMConnectivityHandler.swift; sourceTree = "<group>"; };
 		09E49B5D244272C700BA4593 /* ZMPostManagmentService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMPostManagmentService.swift; sourceTree = "<group>"; };
 		09E49B5F24428C0300BA4593 /* ZMDataManagerMockNetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMDataManagerMockNetworkProvider.swift; sourceTree = "<group>"; };
 		09E49B6224428C7D00BA4593 /* mockNilPost.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockNilPost.json; sourceTree = "<group>"; };
@@ -362,7 +360,6 @@
 		09E49AD5243FA21900BA4593 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				09E49B5A24426C4A00BA4593 /* Connectivity */,
 				09E49ADB243FAD4100BA4593 /* Constants */,
 				09E49AD4243FA17200BA4593 /* Extensions */,
 				09E49AD6243FA23000BA4593 /* Protocols */,
@@ -545,14 +542,6 @@
 				09E49B10244129C000BA4593 /* Animations */,
 			);
 			path = JSON;
-			sourceTree = "<group>";
-		};
-		09E49B5A24426C4A00BA4593 /* Connectivity */ = {
-			isa = PBXGroup;
-			children = (
-				09E49B5B24426C4A00BA4593 /* ZMConnectivityHandler.swift */,
-			);
-			path = Connectivity;
 			sourceTree = "<group>";
 		};
 		09E49B6124428C7D00BA4593 /* Mock */ = {
@@ -789,7 +778,6 @@
 				09E49AB5243F76A000BA4593 /* ZMAppChallenge.xcdatamodeld in Sources */,
 				0996B8572442F9F600CAD562 /* ZMDataManagerCacheProvider.swift in Sources */,
 				09E49AAD243F76A000BA4593 /* SceneDelegate.swift in Sources */,
-				09E49B5C24426C4A00BA4593 /* ZMConnectivityHandler.swift in Sources */,
 				09E49B382442358900BA4593 /* ZMDataManagerNetworkProtocol.swift in Sources */,
 				09E49B332441603600BA4593 /* ZMPostView.swift in Sources */,
 				0996B8432442CA3600CAD562 /* ZMViewModelServiceProtocol.swift in Sources */,

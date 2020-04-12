@@ -7,7 +7,6 @@ target 'ZMAppChallenge' do
 
   # Pods for ZMAppChallenge
   pod 'lottie-ios'
-  pod 'ReachabilitySwift'
   pod 'RealmSwift'
 
   target 'ZMAppChallengeTests' do

@@ -30,10 +30,6 @@ class ZMDataManagerNetworkProvider: ZMDataManagerNetworkProviderProtocol, ZMData
         return URL(string: Constants.baseURL)
     }
     
-    var isConnected: Bool {
-        return ZMConnectivityHandler.isNetworkConnected()
-    }
-    
     //MARK: - ZMDataManagerNetworkProviderProtocol
     
     func execute<T: Decodable>(classType: T.Type, networkParameters: ZMDataManagerNetworkParameters, completion: @escaping (T?, ZMAPIErrorType?) -> ()) {
