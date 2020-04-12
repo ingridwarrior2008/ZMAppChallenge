@@ -22,54 +22,96 @@ the app uses **MVVM** Architecture
 
 ```
 .
-├── AppDelegate.swift
-├── Common
-│   ├── Connectivity
-│   │   ├── ZMConnectivityHandler.swift
-│   │   ├── ZMStringExtensions.swift
-│   │   └── ZMUIViewControllerExtensions.swift
-│   ├── Constants
-│   │   └── ZMAppGlobalConstants.swift
-│   ├── Protocols
-│   │   ├── ZMDataSourceProtocol.swift
-│   │   ├── ZMTableViewCellProtocol.swift
-│   │   └── ZMViewModelServiceProtocol.swift
-│   └── Views
-│       └── Lottie
-├── DataManagers
-│   ├── API
-│   │   ├── ZMDataManagerNetworkProvider.swift
-│   │   └── ZMNetworkBuilder.swift
-│   └── Protocols
-│       └── ZMDataManagerNetworkProtocol.swift
-├── Info.plist
-├── Modules
-│   ├── Post
-│   │   ├── Models
-│   │   ├── ViewControllers
-│   │   ├── ViewModels
+├── Podfile
+├── Podfile.lock
+├── Pods
+│   ├── Headers
+│   ├── Local\ Podspecs
+│   ├── Manifest.lock
+│   ├── Pods.xcodeproj
+│   │   ├── project.pbxproj
+│   │   └── xcuserdata
+│   ├── ReachabilitySwift
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   └── Sources
+│   ├── Realm
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── Realm
+│   │   ├── build.sh
+│   │   ├── core
+│   │   └── include
+│   ├── RealmSwift
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── Realm
+│   │   ├── RealmSwift
+│   │   └── build.sh
+│   ├── Target\ Support\ Files
+│   │   ├── Pods-ZMAppChallenge
+│   │   ├── Pods-ZMAppChallengeTests
+│   │   ├── ReachabilitySwift
+│   │   ├── Realm
+│   │   ├── RealmSwift
+│   │   └── lottie-ios
+│   └── lottie-ios
+│       ├── LICENSE
+│       ├── README.md
+│       └── lottie-swift
+├── README.md
+├── ZMAppChallenge
+│   ├── AppDelegate.swift
+│   ├── Common
+│   │   ├── Connectivity
+│   │   ├── Constants
+│   │   ├── Protocols
 │   │   └── Views
-│   └── PostDetail
-│       ├── Models
-│       ├── ViewControllers
-│       └── ViewModels
-├── Resources
-│   ├── Assets
-│   │   └── Assets.xcassets
-│   ├── CoreData
-│   │   └── ZMAppChallenge.xcdatamodeld
-│   ├── JSON
-│   │   └── Animations
-│   ├── Locale
-│   │   └── Localizable.strings
-│   └── Storyboards
-│       └── Base.lproj
-├── SceneDelegate.swift
-└── Services
-    ├── Comment
-    │   └── ZMCommentManagmentService.swift
-    ├── Post
-    │   └── ZMPostManagmentService.swift
-    └── User
-        └── ZMUserManagmentService.swift
+│   ├── DataManagers
+│   │   ├── API
+│   │   ├── Local
+│   │   └── Protocols
+│   ├── Info.plist
+│   ├── Modules
+│   │   ├── Post
+│   │   └── PostDetail
+│   ├── Resources
+│   │   ├── Assets
+│   │   ├── CoreData
+│   │   ├── JSON
+│   │   ├── Locale
+│   │   └── Storyboards
+│   ├── SceneDelegate.swift
+│   └── Services
+│       ├── Comment
+│       ├── Post
+│       └── User
+├── ZMAppChallenge.xcodeproj
+│   ├── project.pbxproj
+│   ├── project.xcworkspace
+│   │   ├── contents.xcworkspacedata
+│   │   └── xcshareddata
+│   └── xcuserdata
+│       └── cris.xcuserdatad
+├── ZMAppChallenge.xcworkspace
+│   ├── contents.xcworkspacedata
+│   ├── xcshareddata
+│   │   └── IDEWorkspaceChecks.plist
+│   └── xcuserdata
+│       └── cris.xcuserdatad
+└── ZMAppChallengeTests
+    ├── Info.plist
+    ├── Mock
+    │   ├── mockComments.json
+    │   ├── mockCommentsNotValues.json
+    │   ├── mockNilPost.json
+    │   ├── mockPost.json
+    │   ├── mockUser.json
+    │   ├── mockUserWithNoValues.json
+    │   └── mockWithNoValuesPost.json
+    ├── ZMAppChallengeTests.swift
+    ├── ZMCommentManagmentServiceTests.swift
+    ├── ZMDataManagerMockNetworkProvider.swift
+    ├── ZMPostManagmentServiceTests.swift
+    └── ZMUserManagmentServiceTests.swift
 ```
