@@ -1,0 +1,1090 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0996B8432442CA3600CAD562 /* ZMViewModelServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996B8422442CA3600CAD562 /* ZMViewModelServiceProtocol.swift */; };
+		0996B8462442D2A000CAD562 /* ZMUserInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996B8452442D2A000CAD562 /* ZMUserInfoViewModel.swift */; };
+		0996B8552442F92400CAD562 /* ZMDataManagerCacheProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996B8542442F92400CAD562 /* ZMDataManagerCacheProtocol.swift */; };
+		0996B8572442F9F600CAD562 /* ZMDataManagerCacheProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996B8562442F9F600CAD562 /* ZMDataManagerCacheProvider.swift */; };
+		0996B85A24430A4B00CAD562 /* ZMPostCacheProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996B85924430A4B00CAD562 /* ZMPostCacheProvider.swift */; };
+		09E49AAB243F76A000BA4593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AAA243F76A000BA4593 /* AppDelegate.swift */; };
+		09E49AAD243F76A000BA4593 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AAC243F76A000BA4593 /* SceneDelegate.swift */; };
+		09E49AB2243F76A000BA4593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E49AB0243F76A000BA4593 /* Main.storyboard */; };
+		09E49AB5243F76A000BA4593 /* ZMAppChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AB3243F76A000BA4593 /* ZMAppChallenge.xcdatamodeld */; };
+		09E49AB7243F76A200BA4593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E49AB6243F76A200BA4593 /* Assets.xcassets */; };
+		09E49ABA243F76A200BA4593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E49AB8243F76A200BA4593 /* LaunchScreen.storyboard */; };
+		09E49AC5243F76A200BA4593 /* ZMAppChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AC4243F76A200BA4593 /* ZMAppChallengeTests.swift */; };
+		09E49AD3243F9F0F00BA4593 /* ZMPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AD2243F9F0F00BA4593 /* ZMPost.swift */; };
+		09E49ADD243FAD6F00BA4593 /* ZMAppGlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49ADC243FAD6F00BA4593 /* ZMAppGlobalConstants.swift */; };
+		09E49AE5243FDB1F00BA4593 /* ZMDataManagerNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AE4243FDB1F00BA4593 /* ZMDataManagerNetworkProvider.swift */; };
+		09E49AF32440031B00BA4593 /* ZMPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AF22440031B00BA4593 /* ZMPostViewModel.swift */; };
+		09E49AF52440107C00BA4593 /* ZMNetworkBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AF42440107C00BA4593 /* ZMNetworkBuilder.swift */; };
+		09E49AF7244015F800BA4593 /* ZMPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AF6244015F800BA4593 /* ZMPostViewController.swift */; };
+		09E49AFE2440D0E100BA4593 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09E49AFD2440D0E100BA4593 /* Localizable.strings */; };
+		09E49B022440D8BC00BA4593 /* ZMPostDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B012440D8BC00BA4593 /* ZMPostDataSource.swift */; };
+		09E49B052440E53400BA4593 /* ZMDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B042440E53400BA4593 /* ZMDescriptionTableViewCell.swift */; };
+		09E49B092441073100BA4593 /* ZMTableViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B082441073100BA4593 /* ZMTableViewCellProtocol.swift */; };
+		09E49B0D24411DDD00BA4593 /* ZMLottieLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B0B24411DDD00BA4593 /* ZMLottieLoaderViewController.swift */; };
+		09E49B0E24411DDD00BA4593 /* ZMLottieLoaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B0C24411DDD00BA4593 /* ZMLottieLoaderViewController.xib */; };
+		09E49B13244129CF00BA4593 /* 18104-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B11244129CF00BA4593 /* 18104-loading.json */; };
+		09E49B14244129CF00BA4593 /* 13605-deleted-successfully.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B12244129CF00BA4593 /* 13605-deleted-successfully.json */; };
+		09E49B18244135B700BA4593 /* ZMPostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B17244135B700BA4593 /* ZMPostDetailViewController.swift */; };
+		09E49B1E2441495300BA4593 /* ZMPostDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B1D2441495300BA4593 /* ZMPostDetailViewModel.swift */; };
+		09E49B212441498B00BA4593 /* ZMUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B202441498B00BA4593 /* ZMUser.swift */; };
+		09E49B2424414A4C00BA4593 /* ZMUserManagmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B2324414A4C00BA4593 /* ZMUserManagmentService.swift */; };
+		09E49B272441520C00BA4593 /* ZMCommentManagmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B262441520C00BA4593 /* ZMCommentManagmentService.swift */; };
+		09E49B292441523600BA4593 /* ZMComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B282441523600BA4593 /* ZMComment.swift */; };
+		09E49B2B244153E100BA4593 /* ZMCommentCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B2A244153E100BA4593 /* ZMCommentCellViewModel.swift */; };
+		09E49B2D2441585200BA4593 /* ZMCommentDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B2C2441585200BA4593 /* ZMCommentDataSource.swift */; };
+		09E49B312441596D00BA4593 /* ZMDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B302441596D00BA4593 /* ZMDataSourceProtocol.swift */; };
+		09E49B332441603600BA4593 /* ZMPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B322441603600BA4593 /* ZMPostView.swift */; };
+		09E49B382442358900BA4593 /* ZMDataManagerNetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B372442358900BA4593 /* ZMDataManagerNetworkProtocol.swift */; };
+		09E49B4324423C4300BA4593 /* ZMPostManagmentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B4224423C4300BA4593 /* ZMPostManagmentServiceTests.swift */; };
+		09E49B49244248B300BA4593 /* ZMUserManagmentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B48244248B300BA4593 /* ZMUserManagmentServiceTests.swift */; };
+		09E49B4F24424B6B00BA4593 /* ZMCommentManagmentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B4E24424B6B00BA4593 /* ZMCommentManagmentServiceTests.swift */; };
+		09E49B5C24426C4A00BA4593 /* ZMConnectivityHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B5B24426C4A00BA4593 /* ZMConnectivityHandler.swift */; };
+		09E49B5E244272C700BA4593 /* ZMPostManagmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B5D244272C700BA4593 /* ZMPostManagmentService.swift */; };
+		09E49B6024428C0300BA4593 /* ZMDataManagerMockNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B5F24428C0300BA4593 /* ZMDataManagerMockNetworkProvider.swift */; };
+		09E49B6924428C7D00BA4593 /* mockNilPost.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B6224428C7D00BA4593 /* mockNilPost.json */; };
+		09E49B6A24428C7D00BA4593 /* mockWithNoValuesPost.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B6324428C7D00BA4593 /* mockWithNoValuesPost.json */; };
+		09E49B6B24428C7D00BA4593 /* mockCommentsNotValues.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B6424428C7D00BA4593 /* mockCommentsNotValues.json */; };
+		09E49B6C24428C7D00BA4593 /* mockUser.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B6524428C7D00BA4593 /* mockUser.json */; };
+		09E49B6D24428C7D00BA4593 /* mockPost.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B6624428C7D00BA4593 /* mockPost.json */; };
+		09E49B6E24428C7D00BA4593 /* mockUserWithNoValues.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B6724428C7D00BA4593 /* mockUserWithNoValues.json */; };
+		09E49B6F24428C7D00BA4593 /* mockComments.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B6824428C7D00BA4593 /* mockComments.json */; };
+		09E49B742442938B00BA4593 /* ZMUIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B732442938B00BA4593 /* ZMUIViewControllerExtensions.swift */; };
+		09E49B762442943E00BA4593 /* ZMStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B752442943E00BA4593 /* ZMStringExtensions.swift */; };
+		09F2A4222442C5B800B24BDD /* ZMPostCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F2A4212442C5B800B24BDD /* ZMPostCellViewModel.swift */; };
+		379A3C90E3C162E54DF4242F /* Pods_ZMAppChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A0DB948BEFFB5EF13F7C5A /* Pods_ZMAppChallenge.framework */; };
+		711282A1EF8CDE29F29C3DD1 /* Pods_ZMAppChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D745A98EFAF81623FA10A937 /* Pods_ZMAppChallengeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09E49AC1243F76A200BA4593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09E49A9F243F76A000BA4593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09E49AA6243F76A000BA4593;
+			remoteInfo = ZMAppChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0996B8422442CA3600CAD562 /* ZMViewModelServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMViewModelServiceProtocol.swift; sourceTree = "<group>"; };
+		0996B8452442D2A000CAD562 /* ZMUserInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMUserInfoViewModel.swift; sourceTree = "<group>"; };
+		0996B8542442F92400CAD562 /* ZMDataManagerCacheProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMDataManagerCacheProtocol.swift; sourceTree = "<group>"; };
+		0996B8562442F9F600CAD562 /* ZMDataManagerCacheProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMDataManagerCacheProvider.swift; sourceTree = "<group>"; };
+		0996B85924430A4B00CAD562 /* ZMPostCacheProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostCacheProvider.swift; sourceTree = "<group>"; };
+		09E49AA7243F76A000BA4593 /* ZMAppChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMAppChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E49AAA243F76A000BA4593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09E49AAC243F76A000BA4593 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		09E49AB1243F76A000BA4593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09E49AB4243F76A000BA4593 /* ZMAppChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZMAppChallenge.xcdatamodel; sourceTree = "<group>"; };
+		09E49AB6243F76A200BA4593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09E49AB9243F76A200BA4593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09E49ABB243F76A200BA4593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E49AC0243F76A200BA4593 /* ZMAppChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMAppChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E49AC4243F76A200BA4593 /* ZMAppChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMAppChallengeTests.swift; sourceTree = "<group>"; };
+		09E49AC6243F76A200BA4593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E49AD2243F9F0F00BA4593 /* ZMPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPost.swift; sourceTree = "<group>"; };
+		09E49ADC243FAD6F00BA4593 /* ZMAppGlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMAppGlobalConstants.swift; sourceTree = "<group>"; };
+		09E49AE4243FDB1F00BA4593 /* ZMDataManagerNetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMDataManagerNetworkProvider.swift; sourceTree = "<group>"; };
+		09E49AF22440031B00BA4593 /* ZMPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostViewModel.swift; sourceTree = "<group>"; };
+		09E49AF42440107C00BA4593 /* ZMNetworkBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMNetworkBuilder.swift; sourceTree = "<group>"; };
+		09E49AF6244015F800BA4593 /* ZMPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostViewController.swift; sourceTree = "<group>"; };
+		09E49AFD2440D0E100BA4593 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		09E49B012440D8BC00BA4593 /* ZMPostDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostDataSource.swift; sourceTree = "<group>"; };
+		09E49B042440E53400BA4593 /* ZMDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		09E49B082441073100BA4593 /* ZMTableViewCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMTableViewCellProtocol.swift; sourceTree = "<group>"; };
+		09E49B0B24411DDD00BA4593 /* ZMLottieLoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMLottieLoaderViewController.swift; sourceTree = "<group>"; };
+		09E49B0C24411DDD00BA4593 /* ZMLottieLoaderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZMLottieLoaderViewController.xib; sourceTree = "<group>"; };
+		09E49B11244129CF00BA4593 /* 18104-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "18104-loading.json"; sourceTree = "<group>"; };
+		09E49B12244129CF00BA4593 /* 13605-deleted-successfully.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "13605-deleted-successfully.json"; sourceTree = "<group>"; };
+		09E49B17244135B700BA4593 /* ZMPostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostDetailViewController.swift; sourceTree = "<group>"; };
+		09E49B1D2441495300BA4593 /* ZMPostDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostDetailViewModel.swift; sourceTree = "<group>"; };
+		09E49B202441498B00BA4593 /* ZMUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMUser.swift; sourceTree = "<group>"; };
+		09E49B2324414A4C00BA4593 /* ZMUserManagmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMUserManagmentService.swift; sourceTree = "<group>"; };
+		09E49B262441520C00BA4593 /* ZMCommentManagmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMCommentManagmentService.swift; sourceTree = "<group>"; };
+		09E49B282441523600BA4593 /* ZMComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMComment.swift; sourceTree = "<group>"; };
+		09E49B2A244153E100BA4593 /* ZMCommentCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMCommentCellViewModel.swift; sourceTree = "<group>"; };
+		09E49B2C2441585200BA4593 /* ZMCommentDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMCommentDataSource.swift; sourceTree = "<group>"; };
+		09E49B302441596D00BA4593 /* ZMDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMDataSourceProtocol.swift; sourceTree = "<group>"; };
+		09E49B322441603600BA4593 /* ZMPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostView.swift; sourceTree = "<group>"; };
+		09E49B372442358900BA4593 /* ZMDataManagerNetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMDataManagerNetworkProtocol.swift; sourceTree = "<group>"; };
+		09E49B4224423C4300BA4593 /* ZMPostManagmentServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostManagmentServiceTests.swift; sourceTree = "<group>"; };
+		09E49B48244248B300BA4593 /* ZMUserManagmentServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMUserManagmentServiceTests.swift; sourceTree = "<group>"; };
+		09E49B4E24424B6B00BA4593 /* ZMCommentManagmentServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMCommentManagmentServiceTests.swift; sourceTree = "<group>"; };
+		09E49B5B24426C4A00BA4593 /* ZMConnectivityHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMConnectivityHandler.swift; sourceTree = "<group>"; };
+		09E49B5D244272C700BA4593 /* ZMPostManagmentService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMPostManagmentService.swift; sourceTree = "<group>"; };
+		09E49B5F24428C0300BA4593 /* ZMDataManagerMockNetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMDataManagerMockNetworkProvider.swift; sourceTree = "<group>"; };
+		09E49B6224428C7D00BA4593 /* mockNilPost.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockNilPost.json; sourceTree = "<group>"; };
+		09E49B6324428C7D00BA4593 /* mockWithNoValuesPost.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockWithNoValuesPost.json; sourceTree = "<group>"; };
+		09E49B6424428C7D00BA4593 /* mockCommentsNotValues.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockCommentsNotValues.json; sourceTree = "<group>"; };
+		09E49B6524428C7D00BA4593 /* mockUser.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockUser.json; sourceTree = "<group>"; };
+		09E49B6624428C7D00BA4593 /* mockPost.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockPost.json; sourceTree = "<group>"; };
+		09E49B6724428C7D00BA4593 /* mockUserWithNoValues.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockUserWithNoValues.json; sourceTree = "<group>"; };
+		09E49B6824428C7D00BA4593 /* mockComments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockComments.json; sourceTree = "<group>"; };
+		09E49B732442938B00BA4593 /* ZMUIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ZMUIViewControllerExtensions.swift; path = ZMAppChallenge/Common/Connectivity/ZMUIViewControllerExtensions.swift; sourceTree = SOURCE_ROOT; };
+		09E49B752442943E00BA4593 /* ZMStringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ZMStringExtensions.swift; path = ZMAppChallenge/Common/Connectivity/ZMStringExtensions.swift; sourceTree = SOURCE_ROOT; };
+		09F2A4212442C5B800B24BDD /* ZMPostCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostCellViewModel.swift; sourceTree = "<group>"; };
+		72A0DB948BEFFB5EF13F7C5A /* Pods_ZMAppChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMAppChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E96C7B0132A2A9D0875173C /* Pods-ZMAppChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMAppChallenge.debug.xcconfig"; path = "Target Support Files/Pods-ZMAppChallenge/Pods-ZMAppChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		8EDB40729BC57B891797DCA5 /* Pods-ZMAppChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMAppChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-ZMAppChallengeTests/Pods-ZMAppChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7658C17C167B431CA6BBD61 /* Pods-ZMAppChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMAppChallenge.release.xcconfig"; path = "Target Support Files/Pods-ZMAppChallenge/Pods-ZMAppChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		D745A98EFAF81623FA10A937 /* Pods_ZMAppChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMAppChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5B6B4194CE60092DC74FF8 /* Pods-ZMAppChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMAppChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-ZMAppChallengeTests/Pods-ZMAppChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09E49AA4243F76A000BA4593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379A3C90E3C162E54DF4242F /* Pods_ZMAppChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E49ABD243F76A200BA4593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711282A1EF8CDE29F29C3DD1 /* Pods_ZMAppChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0996B8442442D25D00CAD562 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				0996B8452442D2A000CAD562 /* ZMUserInfoViewModel.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		0996B8472442EAA100CAD562 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0996B84A2442EB0700CAD562 /* PostDetail */,
+				0996B8482442EAE700CAD562 /* Post */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0996B8482442EAE700CAD562 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				0996B84E2442EB9F00CAD562 /* Models */,
+				09E49AD0243F88E300BA4593 /* Views */,
+				0996B84B2442EB3600CAD562 /* ViewModels */,
+				0996B8492442EAF200CAD562 /* ViewControllers */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		0996B8492442EAF200CAD562 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B002440D68100BA4593 /* DataSource */,
+				09E49AF6244015F800BA4593 /* ZMPostViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0996B84A2442EB0700CAD562 /* PostDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0996B84F2442EBAE00CAD562 /* Models */,
+				09E49AD1243F890A00BA4593 /* ViewModels */,
+				0996B8502442EFE600CAD562 /* ViewControllers */,
+			);
+			path = PostDetail;
+			sourceTree = "<group>";
+		};
+		0996B84B2442EB3600CAD562 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				09E49AF22440031B00BA4593 /* ZMPostViewModel.swift */,
+				09F2A4212442C5B800B24BDD /* ZMPostCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0996B84C2442EB5C00CAD562 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B1D2441495300BA4593 /* ZMPostDetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		0996B84D2442EB6700CAD562 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B2A244153E100BA4593 /* ZMCommentCellViewModel.swift */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		0996B84E2442EB9F00CAD562 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09E49AD2243F9F0F00BA4593 /* ZMPost.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0996B84F2442EBAE00CAD562 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B282441523600BA4593 /* ZMComment.swift */,
+				09E49B202441498B00BA4593 /* ZMUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0996B8502442EFE600CAD562 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B162441357E00BA4593 /* DataSource */,
+				09E49B17244135B700BA4593 /* ZMPostDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0996B8512442F17600CAD562 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B0A24411DBE00BA4593 /* Lottie */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0996B8522442F6D700CAD562 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				0996B85824430A1D00CAD562 /* Post */,
+				0996B8562442F9F600CAD562 /* ZMDataManagerCacheProvider.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		0996B85824430A1D00CAD562 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				0996B85924430A4B00CAD562 /* ZMPostCacheProvider.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		09E49A9E243F76A000BA4593 = {
+			isa = PBXGroup;
+			children = (
+				09E49AA9243F76A000BA4593 /* ZMAppChallenge */,
+				09E49AC3243F76A200BA4593 /* ZMAppChallengeTests */,
+				09E49AA8243F76A000BA4593 /* Products */,
+				3B13EFFC5279DAD8A7BAB7C1 /* Pods */,
+				A9C6D74F72F6E1C569356BA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09E49AA8243F76A000BA4593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09E49AA7243F76A000BA4593 /* ZMAppChallenge.app */,
+				09E49AC0243F76A200BA4593 /* ZMAppChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09E49AA9243F76A000BA4593 /* ZMAppChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				0996B8472442EAA100CAD562 /* Modules */,
+				09E49AF8244016C500BA4593 /* Services */,
+				09E49ADE243FBB3400BA4593 /* DataManagers */,
+				09E49AD5243FA21900BA4593 /* Common */,
+				09E49AFC2440D0A300BA4593 /* Resources */,
+				09E49AAA243F76A000BA4593 /* AppDelegate.swift */,
+				09E49AAC243F76A000BA4593 /* SceneDelegate.swift */,
+				09E49ABB243F76A200BA4593 /* Info.plist */,
+			);
+			path = ZMAppChallenge;
+			sourceTree = "<group>";
+		};
+		09E49AC3243F76A200BA4593 /* ZMAppChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B6124428C7D00BA4593 /* Mock */,
+				09E49B5F24428C0300BA4593 /* ZMDataManagerMockNetworkProvider.swift */,
+				09E49AC4243F76A200BA4593 /* ZMAppChallengeTests.swift */,
+				09E49AC6243F76A200BA4593 /* Info.plist */,
+				09E49B4224423C4300BA4593 /* ZMPostManagmentServiceTests.swift */,
+				09E49B48244248B300BA4593 /* ZMUserManagmentServiceTests.swift */,
+				09E49B4E24424B6B00BA4593 /* ZMCommentManagmentServiceTests.swift */,
+			);
+			path = ZMAppChallengeTests;
+			sourceTree = "<group>";
+		};
+		09E49AD0243F88E300BA4593 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B032440E51800BA4593 /* Post */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09E49AD1243F890A00BA4593 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0996B84D2442EB6700CAD562 /* Comment */,
+				0996B84C2442EB5C00CAD562 /* Detail */,
+				0996B8442442D25D00CAD562 /* User */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		09E49AD4243FA17200BA4593 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B732442938B00BA4593 /* ZMUIViewControllerExtensions.swift */,
+				09E49B752442943E00BA4593 /* ZMStringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		09E49AD5243FA21900BA4593 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B5A24426C4A00BA4593 /* Connectivity */,
+				09E49ADB243FAD4100BA4593 /* Constants */,
+				09E49AD4243FA17200BA4593 /* Extensions */,
+				09E49AD6243FA23000BA4593 /* Protocols */,
+				0996B8512442F17600CAD562 /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		09E49AD6243FA23000BA4593 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B082441073100BA4593 /* ZMTableViewCellProtocol.swift */,
+				09E49B302441596D00BA4593 /* ZMDataSourceProtocol.swift */,
+				0996B8422442CA3600CAD562 /* ZMViewModelServiceProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		09E49ADB243FAD4100BA4593 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				09E49ADC243FAD6F00BA4593 /* ZMAppGlobalConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		09E49ADE243FBB3400BA4593 /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				0996B8522442F6D700CAD562 /* Local */,
+				09E49AE1243FBCD800BA4593 /* Protocols */,
+				09E49ADF243FBB4A00BA4593 /* API */,
+			);
+			path = DataManagers;
+			sourceTree = "<group>";
+		};
+		09E49ADF243FBB4A00BA4593 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				09E49AE4243FDB1F00BA4593 /* ZMDataManagerNetworkProvider.swift */,
+				09E49AF42440107C00BA4593 /* ZMNetworkBuilder.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		09E49AE1243FBCD800BA4593 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B372442358900BA4593 /* ZMDataManagerNetworkProtocol.swift */,
+				0996B8542442F92400CAD562 /* ZMDataManagerCacheProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		09E49AF8244016C500BA4593 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B25244151F300BA4593 /* Comment */,
+				09E49B2224414A3A00BA4593 /* User */,
+				09E49AF9244016CB00BA4593 /* Post */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		09E49AF9244016CB00BA4593 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B5D244272C700BA4593 /* ZMPostManagmentService.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		09E49AFC2440D0A300BA4593 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B3E24423BC800BA4593 /* JSON */,
+				09E49B3B244236C900BA4593 /* Assets */,
+				09E49B3A244236BB00BA4593 /* CoreData */,
+				09E49B39244236A500BA4593 /* Storyboards */,
+				09E49B0F244129B200BA4593 /* Locale */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		09E49B002440D68100BA4593 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B012440D8BC00BA4593 /* ZMPostDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		09E49B032440E51800BA4593 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B042440E53400BA4593 /* ZMDescriptionTableViewCell.swift */,
+				09E49B322441603600BA4593 /* ZMPostView.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		09E49B0A24411DBE00BA4593 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B0B24411DDD00BA4593 /* ZMLottieLoaderViewController.swift */,
+				09E49B0C24411DDD00BA4593 /* ZMLottieLoaderViewController.xib */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		09E49B0F244129B200BA4593 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				09E49AFD2440D0E100BA4593 /* Localizable.strings */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		09E49B10244129C000BA4593 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B12244129CF00BA4593 /* 13605-deleted-successfully.json */,
+				09E49B11244129CF00BA4593 /* 18104-loading.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		09E49B162441357E00BA4593 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B2C2441585200BA4593 /* ZMCommentDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		09E49B2224414A3A00BA4593 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B2324414A4C00BA4593 /* ZMUserManagmentService.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		09E49B25244151F300BA4593 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B262441520C00BA4593 /* ZMCommentManagmentService.swift */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		09E49B39244236A500BA4593 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				09E49AB8243F76A200BA4593 /* LaunchScreen.storyboard */,
+				09E49AB0243F76A000BA4593 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		09E49B3A244236BB00BA4593 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				09E49AB3243F76A000BA4593 /* ZMAppChallenge.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		09E49B3B244236C900BA4593 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				09E49AB6243F76A200BA4593 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		09E49B3E24423BC800BA4593 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B10244129C000BA4593 /* Animations */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		09E49B5A24426C4A00BA4593 /* Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B5B24426C4A00BA4593 /* ZMConnectivityHandler.swift */,
+			);
+			path = Connectivity;
+			sourceTree = "<group>";
+		};
+		09E49B6124428C7D00BA4593 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				09E49B6224428C7D00BA4593 /* mockNilPost.json */,
+				09E49B6324428C7D00BA4593 /* mockWithNoValuesPost.json */,
+				09E49B6424428C7D00BA4593 /* mockCommentsNotValues.json */,
+				09E49B6524428C7D00BA4593 /* mockUser.json */,
+				09E49B6624428C7D00BA4593 /* mockPost.json */,
+				09E49B6724428C7D00BA4593 /* mockUserWithNoValues.json */,
+				09E49B6824428C7D00BA4593 /* mockComments.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		3B13EFFC5279DAD8A7BAB7C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E96C7B0132A2A9D0875173C /* Pods-ZMAppChallenge.debug.xcconfig */,
+				A7658C17C167B431CA6BBD61 /* Pods-ZMAppChallenge.release.xcconfig */,
+				8EDB40729BC57B891797DCA5 /* Pods-ZMAppChallengeTests.debug.xcconfig */,
+				EB5B6B4194CE60092DC74FF8 /* Pods-ZMAppChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A9C6D74F72F6E1C569356BA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72A0DB948BEFFB5EF13F7C5A /* Pods_ZMAppChallenge.framework */,
+				D745A98EFAF81623FA10A937 /* Pods_ZMAppChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09E49AA6243F76A000BA4593 /* ZMAppChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E49AC9243F76A200BA4593 /* Build configuration list for PBXNativeTarget "ZMAppChallenge" */;
+			buildPhases = (
+				15679108D21C186231ADA4D2 /* [CP] Check Pods Manifest.lock */,
+				09E49AA3243F76A000BA4593 /* Sources */,
+				09E49AA4243F76A000BA4593 /* Frameworks */,
+				09E49AA5243F76A000BA4593 /* Resources */,
+				3636FC68B8E4573DD9194034 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMAppChallenge;
+			productName = ZMAppChallenge;
+			productReference = 09E49AA7243F76A000BA4593 /* ZMAppChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09E49ABF243F76A200BA4593 /* ZMAppChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E49ACC243F76A200BA4593 /* Build configuration list for PBXNativeTarget "ZMAppChallengeTests" */;
+			buildPhases = (
+				3C36C346B663ADE0356C9F9A /* [CP] Check Pods Manifest.lock */,
+				09E49ABC243F76A200BA4593 /* Sources */,
+				09E49ABD243F76A200BA4593 /* Frameworks */,
+				09E49ABE243F76A200BA4593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09E49AC2243F76A200BA4593 /* PBXTargetDependency */,
+			);
+			name = ZMAppChallengeTests;
+			productName = ZMAppChallengeTests;
+			productReference = 09E49AC0243F76A200BA4593 /* ZMAppChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09E49A9F243F76A000BA4593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Ingrid Guerrero";
+				TargetAttributes = {
+					09E49AA6243F76A000BA4593 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					09E49ABF243F76A200BA4593 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 09E49AA6243F76A000BA4593;
+					};
+				};
+			};
+			buildConfigurationList = 09E49AA2243F76A000BA4593 /* Build configuration list for PBXProject "ZMAppChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09E49A9E243F76A000BA4593;
+			productRefGroup = 09E49AA8243F76A000BA4593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09E49AA6243F76A000BA4593 /* ZMAppChallenge */,
+				09E49ABF243F76A200BA4593 /* ZMAppChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09E49AA5243F76A000BA4593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E49ABA243F76A200BA4593 /* LaunchScreen.storyboard in Resources */,
+				09E49AFE2440D0E100BA4593 /* Localizable.strings in Resources */,
+				09E49AB7243F76A200BA4593 /* Assets.xcassets in Resources */,
+				09E49B0E24411DDD00BA4593 /* ZMLottieLoaderViewController.xib in Resources */,
+				09E49B14244129CF00BA4593 /* 13605-deleted-successfully.json in Resources */,
+				09E49AB2243F76A000BA4593 /* Main.storyboard in Resources */,
+				09E49B13244129CF00BA4593 /* 18104-loading.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E49ABE243F76A200BA4593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E49B6B24428C7D00BA4593 /* mockCommentsNotValues.json in Resources */,
+				09E49B6E24428C7D00BA4593 /* mockUserWithNoValues.json in Resources */,
+				09E49B6A24428C7D00BA4593 /* mockWithNoValuesPost.json in Resources */,
+				09E49B6C24428C7D00BA4593 /* mockUser.json in Resources */,
+				09E49B6F24428C7D00BA4593 /* mockComments.json in Resources */,
+				09E49B6D24428C7D00BA4593 /* mockPost.json in Resources */,
+				09E49B6924428C7D00BA4593 /* mockNilPost.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15679108D21C186231ADA4D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZMAppChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3636FC68B8E4573DD9194034 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZMAppChallenge/Pods-ZMAppChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZMAppChallenge/Pods-ZMAppChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZMAppChallenge/Pods-ZMAppChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C36C346B663ADE0356C9F9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZMAppChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09E49AA3243F76A000BA4593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E49ADD243FAD6F00BA4593 /* ZMAppGlobalConstants.swift in Sources */,
+				09E49AF7244015F800BA4593 /* ZMPostViewController.swift in Sources */,
+				09E49B2B244153E100BA4593 /* ZMCommentCellViewModel.swift in Sources */,
+				09E49B18244135B700BA4593 /* ZMPostDetailViewController.swift in Sources */,
+				0996B8462442D2A000CAD562 /* ZMUserInfoViewModel.swift in Sources */,
+				09F2A4222442C5B800B24BDD /* ZMPostCellViewModel.swift in Sources */,
+				09E49B292441523600BA4593 /* ZMComment.swift in Sources */,
+				09E49B212441498B00BA4593 /* ZMUser.swift in Sources */,
+				09E49AF32440031B00BA4593 /* ZMPostViewModel.swift in Sources */,
+				0996B8552442F92400CAD562 /* ZMDataManagerCacheProtocol.swift in Sources */,
+				09E49AAB243F76A000BA4593 /* AppDelegate.swift in Sources */,
+				09E49B092441073100BA4593 /* ZMTableViewCellProtocol.swift in Sources */,
+				09E49B2424414A4C00BA4593 /* ZMUserManagmentService.swift in Sources */,
+				09E49B0D24411DDD00BA4593 /* ZMLottieLoaderViewController.swift in Sources */,
+				09E49B312441596D00BA4593 /* ZMDataSourceProtocol.swift in Sources */,
+				09E49B5E244272C700BA4593 /* ZMPostManagmentService.swift in Sources */,
+				0996B85A24430A4B00CAD562 /* ZMPostCacheProvider.swift in Sources */,
+				09E49AE5243FDB1F00BA4593 /* ZMDataManagerNetworkProvider.swift in Sources */,
+				09E49AB5243F76A000BA4593 /* ZMAppChallenge.xcdatamodeld in Sources */,
+				0996B8572442F9F600CAD562 /* ZMDataManagerCacheProvider.swift in Sources */,
+				09E49AAD243F76A000BA4593 /* SceneDelegate.swift in Sources */,
+				09E49B5C24426C4A00BA4593 /* ZMConnectivityHandler.swift in Sources */,
+				09E49B382442358900BA4593 /* ZMDataManagerNetworkProtocol.swift in Sources */,
+				09E49B332441603600BA4593 /* ZMPostView.swift in Sources */,
+				0996B8432442CA3600CAD562 /* ZMViewModelServiceProtocol.swift in Sources */,
+				09E49AD3243F9F0F00BA4593 /* ZMPost.swift in Sources */,
+				09E49B052440E53400BA4593 /* ZMDescriptionTableViewCell.swift in Sources */,
+				09E49AF52440107C00BA4593 /* ZMNetworkBuilder.swift in Sources */,
+				09E49B272441520C00BA4593 /* ZMCommentManagmentService.swift in Sources */,
+				09E49B2D2441585200BA4593 /* ZMCommentDataSource.swift in Sources */,
+				09E49B1E2441495300BA4593 /* ZMPostDetailViewModel.swift in Sources */,
+				09E49B022440D8BC00BA4593 /* ZMPostDataSource.swift in Sources */,
+				09E49B742442938B00BA4593 /* ZMUIViewControllerExtensions.swift in Sources */,
+				09E49B762442943E00BA4593 /* ZMStringExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E49ABC243F76A200BA4593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E49B4324423C4300BA4593 /* ZMPostManagmentServiceTests.swift in Sources */,
+				09E49B6024428C0300BA4593 /* ZMDataManagerMockNetworkProvider.swift in Sources */,
+				09E49B4F24424B6B00BA4593 /* ZMCommentManagmentServiceTests.swift in Sources */,
+				09E49AC5243F76A200BA4593 /* ZMAppChallengeTests.swift in Sources */,
+				09E49B49244248B300BA4593 /* ZMUserManagmentServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09E49AC2243F76A200BA4593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09E49AA6243F76A000BA4593 /* ZMAppChallenge */;
+			targetProxy = 09E49AC1243F76A200BA4593 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09E49AB0243F76A000BA4593 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E49AB1243F76A000BA4593 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09E49AB8243F76A200BA4593 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E49AB9243F76A200BA4593 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09E49AC7243F76A200BA4593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09E49AC8243F76A200BA4593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09E49ACA243F76A200BA4593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E96C7B0132A2A9D0875173C /* Pods-ZMAppChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZMAppChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StreetCoding.ZMAppChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09E49ACB243F76A200BA4593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7658C17C167B431CA6BBD61 /* Pods-ZMAppChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZMAppChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StreetCoding.ZMAppChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09E49ACD243F76A200BA4593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EDB40729BC57B891797DCA5 /* Pods-ZMAppChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZMAppChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StreetCoding.ZMAppChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMAppChallenge.app/ZMAppChallenge";
+			};
+			name = Debug;
+		};
+		09E49ACE243F76A200BA4593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB5B6B4194CE60092DC74FF8 /* Pods-ZMAppChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZMAppChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StreetCoding.ZMAppChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMAppChallenge.app/ZMAppChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09E49AA2243F76A000BA4593 /* Build configuration list for PBXProject "ZMAppChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E49AC7243F76A200BA4593 /* Debug */,
+				09E49AC8243F76A200BA4593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09E49AC9243F76A200BA4593 /* Build configuration list for PBXNativeTarget "ZMAppChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E49ACA243F76A200BA4593 /* Debug */,
+				09E49ACB243F76A200BA4593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09E49ACC243F76A200BA4593 /* Build configuration list for PBXNativeTarget "ZMAppChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E49ACD243F76A200BA4593 /* Debug */,
+				09E49ACE243F76A200BA4593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09E49AB3243F76A000BA4593 /* ZMAppChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09E49AB4243F76A000BA4593 /* ZMAppChallenge.xcdatamodel */,
+			);
+			currentVersion = 09E49AB4243F76A000BA4593 /* ZMAppChallenge.xcdatamodel */;
+			path = ZMAppChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09E49A9F243F76A000BA4593 /* Project object */;
+}

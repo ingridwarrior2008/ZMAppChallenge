@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  ZMAppChallenge
+
+  Created by Cris on 10/04/20.
+  Copyright © 2020 Ingrid Guerrero. All rights reserved.
+*/
+
+"post.title" = "Post";
+"post.generic.error" = "Oops something went wrong";
+"ok.generic.title" = "OK";
