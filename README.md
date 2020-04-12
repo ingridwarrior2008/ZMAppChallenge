@@ -1,7 +1,7 @@
 # ZMAppChallenge
 
 ZMAppChallenge App show the posts from https://jsonplaceholder.typicode.com. 
-The project was built in Xcode version 11.4 and iOS 13.4
+The project was built in Xcode version 11.4 and iOS 13.0
 
 ![Screen Recording 2020-04-11 at 4 37 32 PM_2](https://user-images.githubusercontent.com/1762283/79055823-9be73600-7c15-11ea-989a-616451b3dc8a.gif)
 
@@ -29,26 +29,26 @@ the app uses **MVVM** Architecture
 ├── AppDelegate.swift
 ├── Common
 │   ├── Constants
-│   │   └── ZMAppGlobalConstants.swift
+│   │   └── AppGlobalConstants.swift
 │   ├── Extensions
-│   │   ├── ZMStringExtensions.swift
-│   │   └── ZMUIViewControllerExtensions.swift
+│   │   ├── StringExtensions.swift
+│   │   └── UIViewControllerExtensions.swift
 │   ├── Protocols
-│   │   ├── ZMDataSourceProtocol.swift
-│   │   ├── ZMTableViewCellProtocol.swift
-│   │   └── ZMViewModelServiceProtocol.swift
+│   │   ├── DataSourceProtocol.swift
+│   │   ├── TableViewCellProtocol.swift
+│   │   └── ViewModelServiceProtocol.swift
 │   └── Views
 │       └── Lottie
 ├── DataManagers
 │   ├── API
-│   │   ├── ZMDataManagerNetworkProvider.swift
-│   │   └── ZMNetworkBuilder.swift
+│   │   ├── DataManagerNetworkProvider.swift
+│   │   └── NetworkBuilder.swift
 │   ├── Local
-│   │   ├── Post
-│   │   └── ZMDataManagerCacheProvider.swift
+│   │   ├── DataManagerCacheProvider.swift
+│   │   └── Post
 │   └── Protocols
-│       ├── ZMDataManagerCacheProtocol.swift
-│       └── ZMDataManagerNetworkProtocol.swift
+│       ├── DataManagerCacheProtocol.swift
+│       └── DataManagerNetworkProtocol.swift
 ├── Info.plist
 ├── Modules
 │   ├── Post
@@ -72,11 +72,11 @@ the app uses **MVVM** Architecture
 ├── SceneDelegate.swift
 └── Services
     ├── Comment
-    │   └── ZMCommentManagmentService.swift
+    │   └── CommentManagmentService.swift
     ├── Post
-    │   └── ZMPostManagmentService.swift
+    │   └── PostManagmentService.swift
     └── User
-        └── ZMUserManagmentService.swift
+        └── UserManagmentService.swift
 
 
 
