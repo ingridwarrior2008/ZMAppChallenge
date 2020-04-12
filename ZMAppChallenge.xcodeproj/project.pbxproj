@@ -7,47 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0996B8432442CA3600CAD562 /* ZMViewModelServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996B8422442CA3600CAD562 /* ZMViewModelServiceProtocol.swift */; };
-		0996B8462442D2A000CAD562 /* ZMUserInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996B8452442D2A000CAD562 /* ZMUserInfoViewModel.swift */; };
-		0996B8552442F92400CAD562 /* ZMDataManagerCacheProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996B8542442F92400CAD562 /* ZMDataManagerCacheProtocol.swift */; };
-		0996B8572442F9F600CAD562 /* ZMDataManagerCacheProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996B8562442F9F600CAD562 /* ZMDataManagerCacheProvider.swift */; };
-		0996B85A24430A4B00CAD562 /* ZMPostCacheProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996B85924430A4B00CAD562 /* ZMPostCacheProvider.swift */; };
+		0996B8432442CA3600CAD562 /* ViewModelServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996B8422442CA3600CAD562 /* ViewModelServiceProtocol.swift */; };
+		0996B8462442D2A000CAD562 /* UserInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996B8452442D2A000CAD562 /* UserInfoViewModel.swift */; };
+		0996B8552442F92400CAD562 /* DataManagerCacheProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996B8542442F92400CAD562 /* DataManagerCacheProtocol.swift */; };
+		0996B8572442F9F600CAD562 /* DataManagerCacheProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996B8562442F9F600CAD562 /* DataManagerCacheProvider.swift */; };
+		0996B85A24430A4B00CAD562 /* PostCacheProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996B85924430A4B00CAD562 /* PostCacheProvider.swift */; };
 		09E49AAB243F76A000BA4593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AAA243F76A000BA4593 /* AppDelegate.swift */; };
 		09E49AAD243F76A000BA4593 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AAC243F76A000BA4593 /* SceneDelegate.swift */; };
 		09E49AB2243F76A000BA4593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E49AB0243F76A000BA4593 /* Main.storyboard */; };
 		09E49AB7243F76A200BA4593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E49AB6243F76A200BA4593 /* Assets.xcassets */; };
 		09E49ABA243F76A200BA4593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E49AB8243F76A200BA4593 /* LaunchScreen.storyboard */; };
 		09E49AC5243F76A200BA4593 /* ZMAppChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AC4243F76A200BA4593 /* ZMAppChallengeTests.swift */; };
-		09E49AD3243F9F0F00BA4593 /* ZMPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AD2243F9F0F00BA4593 /* ZMPost.swift */; };
-		09E49ADD243FAD6F00BA4593 /* ZMAppGlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49ADC243FAD6F00BA4593 /* ZMAppGlobalConstants.swift */; };
-		09E49AE5243FDB1F00BA4593 /* ZMDataManagerNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AE4243FDB1F00BA4593 /* ZMDataManagerNetworkProvider.swift */; };
-		09E49AF32440031B00BA4593 /* ZMPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AF22440031B00BA4593 /* ZMPostViewModel.swift */; };
-		09E49AF52440107C00BA4593 /* ZMNetworkBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AF42440107C00BA4593 /* ZMNetworkBuilder.swift */; };
-		09E49AF7244015F800BA4593 /* ZMPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AF6244015F800BA4593 /* ZMPostViewController.swift */; };
+		09E49AD3243F9F0F00BA4593 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AD2243F9F0F00BA4593 /* Post.swift */; };
+		09E49ADD243FAD6F00BA4593 /* AppGlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49ADC243FAD6F00BA4593 /* AppGlobalConstants.swift */; };
+		09E49AE5243FDB1F00BA4593 /* DataManagerNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AE4243FDB1F00BA4593 /* DataManagerNetworkProvider.swift */; };
+		09E49AF32440031B00BA4593 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AF22440031B00BA4593 /* PostViewModel.swift */; };
+		09E49AF52440107C00BA4593 /* NetworkBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AF42440107C00BA4593 /* NetworkBuilder.swift */; };
+		09E49AF7244015F800BA4593 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AF6244015F800BA4593 /* PostViewController.swift */; };
 		09E49AFE2440D0E100BA4593 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09E49AFD2440D0E100BA4593 /* Localizable.strings */; };
-		09E49B022440D8BC00BA4593 /* ZMPostDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B012440D8BC00BA4593 /* ZMPostDataSource.swift */; };
-		09E49B052440E53400BA4593 /* ZMDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B042440E53400BA4593 /* ZMDescriptionTableViewCell.swift */; };
-		09E49B092441073100BA4593 /* ZMTableViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B082441073100BA4593 /* ZMTableViewCellProtocol.swift */; };
-		09E49B0D24411DDD00BA4593 /* ZMLottieLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B0B24411DDD00BA4593 /* ZMLottieLoaderViewController.swift */; };
-		09E49B0E24411DDD00BA4593 /* ZMLottieLoaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B0C24411DDD00BA4593 /* ZMLottieLoaderViewController.xib */; };
+		09E49B022440D8BC00BA4593 /* PostDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B012440D8BC00BA4593 /* PostDataSource.swift */; };
+		09E49B052440E53400BA4593 /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B042440E53400BA4593 /* DescriptionTableViewCell.swift */; };
+		09E49B092441073100BA4593 /* TableViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B082441073100BA4593 /* TableViewCellProtocol.swift */; };
+		09E49B0D24411DDD00BA4593 /* LottieLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B0B24411DDD00BA4593 /* LottieLoaderViewController.swift */; };
+		09E49B0E24411DDD00BA4593 /* LottieLoaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B0C24411DDD00BA4593 /* LottieLoaderViewController.xib */; };
 		09E49B13244129CF00BA4593 /* 18104-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B11244129CF00BA4593 /* 18104-loading.json */; };
 		09E49B14244129CF00BA4593 /* 13605-deleted-successfully.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B12244129CF00BA4593 /* 13605-deleted-successfully.json */; };
-		09E49B18244135B700BA4593 /* ZMPostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B17244135B700BA4593 /* ZMPostDetailViewController.swift */; };
-		09E49B1E2441495300BA4593 /* ZMPostDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B1D2441495300BA4593 /* ZMPostDetailViewModel.swift */; };
-		09E49B212441498B00BA4593 /* ZMUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B202441498B00BA4593 /* ZMUser.swift */; };
-		09E49B2424414A4C00BA4593 /* ZMUserManagmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B2324414A4C00BA4593 /* ZMUserManagmentService.swift */; };
-		09E49B272441520C00BA4593 /* ZMCommentManagmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B262441520C00BA4593 /* ZMCommentManagmentService.swift */; };
-		09E49B292441523600BA4593 /* ZMComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B282441523600BA4593 /* ZMComment.swift */; };
-		09E49B2B244153E100BA4593 /* ZMCommentCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B2A244153E100BA4593 /* ZMCommentCellViewModel.swift */; };
-		09E49B2D2441585200BA4593 /* ZMCommentDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B2C2441585200BA4593 /* ZMCommentDataSource.swift */; };
-		09E49B312441596D00BA4593 /* ZMDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B302441596D00BA4593 /* ZMDataSourceProtocol.swift */; };
-		09E49B332441603600BA4593 /* ZMPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B322441603600BA4593 /* ZMPostView.swift */; };
-		09E49B382442358900BA4593 /* ZMDataManagerNetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B372442358900BA4593 /* ZMDataManagerNetworkProtocol.swift */; };
-		09E49B4324423C4300BA4593 /* ZMPostManagmentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B4224423C4300BA4593 /* ZMPostManagmentServiceTests.swift */; };
-		09E49B49244248B300BA4593 /* ZMUserManagmentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B48244248B300BA4593 /* ZMUserManagmentServiceTests.swift */; };
-		09E49B4F24424B6B00BA4593 /* ZMCommentManagmentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B4E24424B6B00BA4593 /* ZMCommentManagmentServiceTests.swift */; };
-		09E49B5E244272C700BA4593 /* ZMPostManagmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B5D244272C700BA4593 /* ZMPostManagmentService.swift */; };
-		09E49B6024428C0300BA4593 /* ZMDataManagerMockNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B5F24428C0300BA4593 /* ZMDataManagerMockNetworkProvider.swift */; };
+		09E49B18244135B700BA4593 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B17244135B700BA4593 /* PostDetailViewController.swift */; };
+		09E49B1E2441495300BA4593 /* PostDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B1D2441495300BA4593 /* PostDetailViewModel.swift */; };
+		09E49B212441498B00BA4593 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B202441498B00BA4593 /* User.swift */; };
+		09E49B2424414A4C00BA4593 /* UserManagmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B2324414A4C00BA4593 /* UserManagmentService.swift */; };
+		09E49B272441520C00BA4593 /* CommentManagmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B262441520C00BA4593 /* CommentManagmentService.swift */; };
+		09E49B292441523600BA4593 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B282441523600BA4593 /* Comment.swift */; };
+		09E49B2B244153E100BA4593 /* CommentCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B2A244153E100BA4593 /* CommentCellViewModel.swift */; };
+		09E49B2D2441585200BA4593 /* CommentDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B2C2441585200BA4593 /* CommentDataSource.swift */; };
+		09E49B312441596D00BA4593 /* DataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B302441596D00BA4593 /* DataSourceProtocol.swift */; };
+		09E49B332441603600BA4593 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B322441603600BA4593 /* PostView.swift */; };
+		09E49B382442358900BA4593 /* DataManagerNetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B372442358900BA4593 /* DataManagerNetworkProtocol.swift */; };
+		09E49B4324423C4300BA4593 /* PostManagmentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B4224423C4300BA4593 /* PostManagmentServiceTests.swift */; };
+		09E49B49244248B300BA4593 /* UserManagmentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B48244248B300BA4593 /* UserManagmentServiceTests.swift */; };
+		09E49B4F24424B6B00BA4593 /* CommentManagmentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B4E24424B6B00BA4593 /* CommentManagmentServiceTests.swift */; };
+		09E49B5E244272C700BA4593 /* PostManagmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B5D244272C700BA4593 /* PostManagmentService.swift */; };
+		09E49B6024428C0300BA4593 /* DataManagerMockNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B5F24428C0300BA4593 /* DataManagerMockNetworkProvider.swift */; };
 		09E49B6924428C7D00BA4593 /* mockNilPost.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B6224428C7D00BA4593 /* mockNilPost.json */; };
 		09E49B6A24428C7D00BA4593 /* mockWithNoValuesPost.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B6324428C7D00BA4593 /* mockWithNoValuesPost.json */; };
 		09E49B6B24428C7D00BA4593 /* mockCommentsNotValues.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B6424428C7D00BA4593 /* mockCommentsNotValues.json */; };
@@ -55,9 +55,9 @@
 		09E49B6D24428C7D00BA4593 /* mockPost.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B6624428C7D00BA4593 /* mockPost.json */; };
 		09E49B6E24428C7D00BA4593 /* mockUserWithNoValues.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B6724428C7D00BA4593 /* mockUserWithNoValues.json */; };
 		09E49B6F24428C7D00BA4593 /* mockComments.json in Resources */ = {isa = PBXBuildFile; fileRef = 09E49B6824428C7D00BA4593 /* mockComments.json */; };
-		09E49B742442938B00BA4593 /* ZMUIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B732442938B00BA4593 /* ZMUIViewControllerExtensions.swift */; };
-		09E49B762442943E00BA4593 /* ZMStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B752442943E00BA4593 /* ZMStringExtensions.swift */; };
-		09F2A4222442C5B800B24BDD /* ZMPostCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F2A4212442C5B800B24BDD /* ZMPostCellViewModel.swift */; };
+		09E49B742442938B00BA4593 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B732442938B00BA4593 /* UIViewControllerExtensions.swift */; };
+		09E49B762442943E00BA4593 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49B752442943E00BA4593 /* StringExtensions.swift */; };
+		09F2A4222442C5B800B24BDD /* PostCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F2A4212442C5B800B24BDD /* PostCellViewModel.swift */; };
 		379A3C90E3C162E54DF4242F /* Pods_ZMAppChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A0DB948BEFFB5EF13F7C5A /* Pods_ZMAppChallenge.framework */; };
 		711282A1EF8CDE29F29C3DD1 /* Pods_ZMAppChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D745A98EFAF81623FA10A937 /* Pods_ZMAppChallengeTests.framework */; };
 /* End PBXBuildFile section */
@@ -73,11 +73,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0996B8422442CA3600CAD562 /* ZMViewModelServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMViewModelServiceProtocol.swift; sourceTree = "<group>"; };
-		0996B8452442D2A000CAD562 /* ZMUserInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMUserInfoViewModel.swift; sourceTree = "<group>"; };
-		0996B8542442F92400CAD562 /* ZMDataManagerCacheProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMDataManagerCacheProtocol.swift; sourceTree = "<group>"; };
-		0996B8562442F9F600CAD562 /* ZMDataManagerCacheProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMDataManagerCacheProvider.swift; sourceTree = "<group>"; };
-		0996B85924430A4B00CAD562 /* ZMPostCacheProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostCacheProvider.swift; sourceTree = "<group>"; };
+		0996B8422442CA3600CAD562 /* ViewModelServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelServiceProtocol.swift; sourceTree = "<group>"; };
+		0996B8452442D2A000CAD562 /* UserInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewModel.swift; sourceTree = "<group>"; };
+		0996B8542442F92400CAD562 /* DataManagerCacheProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerCacheProtocol.swift; sourceTree = "<group>"; };
+		0996B8562442F9F600CAD562 /* DataManagerCacheProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerCacheProvider.swift; sourceTree = "<group>"; };
+		0996B85924430A4B00CAD562 /* PostCacheProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCacheProvider.swift; sourceTree = "<group>"; };
 		09E49AA7243F76A000BA4593 /* ZMAppChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMAppChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E49AAA243F76A000BA4593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09E49AAC243F76A000BA4593 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,36 +88,36 @@
 		09E49AC0243F76A200BA4593 /* ZMAppChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMAppChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E49AC4243F76A200BA4593 /* ZMAppChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMAppChallengeTests.swift; sourceTree = "<group>"; };
 		09E49AC6243F76A200BA4593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09E49AD2243F9F0F00BA4593 /* ZMPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPost.swift; sourceTree = "<group>"; };
-		09E49ADC243FAD6F00BA4593 /* ZMAppGlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMAppGlobalConstants.swift; sourceTree = "<group>"; };
-		09E49AE4243FDB1F00BA4593 /* ZMDataManagerNetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMDataManagerNetworkProvider.swift; sourceTree = "<group>"; };
-		09E49AF22440031B00BA4593 /* ZMPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostViewModel.swift; sourceTree = "<group>"; };
-		09E49AF42440107C00BA4593 /* ZMNetworkBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMNetworkBuilder.swift; sourceTree = "<group>"; };
-		09E49AF6244015F800BA4593 /* ZMPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostViewController.swift; sourceTree = "<group>"; };
+		09E49AD2243F9F0F00BA4593 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		09E49ADC243FAD6F00BA4593 /* AppGlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGlobalConstants.swift; sourceTree = "<group>"; };
+		09E49AE4243FDB1F00BA4593 /* DataManagerNetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerNetworkProvider.swift; sourceTree = "<group>"; };
+		09E49AF22440031B00BA4593 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		09E49AF42440107C00BA4593 /* NetworkBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkBuilder.swift; sourceTree = "<group>"; };
+		09E49AF6244015F800BA4593 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		09E49AFD2440D0E100BA4593 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		09E49B012440D8BC00BA4593 /* ZMPostDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostDataSource.swift; sourceTree = "<group>"; };
-		09E49B042440E53400BA4593 /* ZMDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMDescriptionTableViewCell.swift; sourceTree = "<group>"; };
-		09E49B082441073100BA4593 /* ZMTableViewCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMTableViewCellProtocol.swift; sourceTree = "<group>"; };
-		09E49B0B24411DDD00BA4593 /* ZMLottieLoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMLottieLoaderViewController.swift; sourceTree = "<group>"; };
-		09E49B0C24411DDD00BA4593 /* ZMLottieLoaderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZMLottieLoaderViewController.xib; sourceTree = "<group>"; };
+		09E49B012440D8BC00BA4593 /* PostDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDataSource.swift; sourceTree = "<group>"; };
+		09E49B042440E53400BA4593 /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		09E49B082441073100BA4593 /* TableViewCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellProtocol.swift; sourceTree = "<group>"; };
+		09E49B0B24411DDD00BA4593 /* LottieLoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieLoaderViewController.swift; sourceTree = "<group>"; };
+		09E49B0C24411DDD00BA4593 /* LottieLoaderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LottieLoaderViewController.xib; sourceTree = "<group>"; };
 		09E49B11244129CF00BA4593 /* 18104-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "18104-loading.json"; sourceTree = "<group>"; };
 		09E49B12244129CF00BA4593 /* 13605-deleted-successfully.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "13605-deleted-successfully.json"; sourceTree = "<group>"; };
-		09E49B17244135B700BA4593 /* ZMPostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostDetailViewController.swift; sourceTree = "<group>"; };
-		09E49B1D2441495300BA4593 /* ZMPostDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostDetailViewModel.swift; sourceTree = "<group>"; };
-		09E49B202441498B00BA4593 /* ZMUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMUser.swift; sourceTree = "<group>"; };
-		09E49B2324414A4C00BA4593 /* ZMUserManagmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMUserManagmentService.swift; sourceTree = "<group>"; };
-		09E49B262441520C00BA4593 /* ZMCommentManagmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMCommentManagmentService.swift; sourceTree = "<group>"; };
-		09E49B282441523600BA4593 /* ZMComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMComment.swift; sourceTree = "<group>"; };
-		09E49B2A244153E100BA4593 /* ZMCommentCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMCommentCellViewModel.swift; sourceTree = "<group>"; };
-		09E49B2C2441585200BA4593 /* ZMCommentDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMCommentDataSource.swift; sourceTree = "<group>"; };
-		09E49B302441596D00BA4593 /* ZMDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMDataSourceProtocol.swift; sourceTree = "<group>"; };
-		09E49B322441603600BA4593 /* ZMPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostView.swift; sourceTree = "<group>"; };
-		09E49B372442358900BA4593 /* ZMDataManagerNetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMDataManagerNetworkProtocol.swift; sourceTree = "<group>"; };
-		09E49B4224423C4300BA4593 /* ZMPostManagmentServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostManagmentServiceTests.swift; sourceTree = "<group>"; };
-		09E49B48244248B300BA4593 /* ZMUserManagmentServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMUserManagmentServiceTests.swift; sourceTree = "<group>"; };
-		09E49B4E24424B6B00BA4593 /* ZMCommentManagmentServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMCommentManagmentServiceTests.swift; sourceTree = "<group>"; };
-		09E49B5D244272C700BA4593 /* ZMPostManagmentService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMPostManagmentService.swift; sourceTree = "<group>"; };
-		09E49B5F24428C0300BA4593 /* ZMDataManagerMockNetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMDataManagerMockNetworkProvider.swift; sourceTree = "<group>"; };
+		09E49B17244135B700BA4593 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		09E49B1D2441495300BA4593 /* PostDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewModel.swift; sourceTree = "<group>"; };
+		09E49B202441498B00BA4593 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		09E49B2324414A4C00BA4593 /* UserManagmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagmentService.swift; sourceTree = "<group>"; };
+		09E49B262441520C00BA4593 /* CommentManagmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentManagmentService.swift; sourceTree = "<group>"; };
+		09E49B282441523600BA4593 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		09E49B2A244153E100BA4593 /* CommentCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCellViewModel.swift; sourceTree = "<group>"; };
+		09E49B2C2441585200BA4593 /* CommentDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentDataSource.swift; sourceTree = "<group>"; };
+		09E49B302441596D00BA4593 /* DataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceProtocol.swift; sourceTree = "<group>"; };
+		09E49B322441603600BA4593 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		09E49B372442358900BA4593 /* DataManagerNetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerNetworkProtocol.swift; sourceTree = "<group>"; };
+		09E49B4224423C4300BA4593 /* PostManagmentServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostManagmentServiceTests.swift; sourceTree = "<group>"; };
+		09E49B48244248B300BA4593 /* UserManagmentServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagmentServiceTests.swift; sourceTree = "<group>"; };
+		09E49B4E24424B6B00BA4593 /* CommentManagmentServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentManagmentServiceTests.swift; sourceTree = "<group>"; };
+		09E49B5D244272C700BA4593 /* PostManagmentService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostManagmentService.swift; sourceTree = "<group>"; };
+		09E49B5F24428C0300BA4593 /* DataManagerMockNetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManagerMockNetworkProvider.swift; sourceTree = "<group>"; };
 		09E49B6224428C7D00BA4593 /* mockNilPost.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockNilPost.json; sourceTree = "<group>"; };
 		09E49B6324428C7D00BA4593 /* mockWithNoValuesPost.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockWithNoValuesPost.json; sourceTree = "<group>"; };
 		09E49B6424428C7D00BA4593 /* mockCommentsNotValues.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockCommentsNotValues.json; sourceTree = "<group>"; };
@@ -125,9 +125,9 @@
 		09E49B6624428C7D00BA4593 /* mockPost.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockPost.json; sourceTree = "<group>"; };
 		09E49B6724428C7D00BA4593 /* mockUserWithNoValues.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockUserWithNoValues.json; sourceTree = "<group>"; };
 		09E49B6824428C7D00BA4593 /* mockComments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockComments.json; sourceTree = "<group>"; };
-		09E49B732442938B00BA4593 /* ZMUIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ZMUIViewControllerExtensions.swift; path = ZMAppChallenge/Common/Extensions/ZMUIViewControllerExtensions.swift; sourceTree = SOURCE_ROOT; };
-		09E49B752442943E00BA4593 /* ZMStringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ZMStringExtensions.swift; path = ZMAppChallenge/Common/Extensions/ZMStringExtensions.swift; sourceTree = SOURCE_ROOT; };
-		09F2A4212442C5B800B24BDD /* ZMPostCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMPostCellViewModel.swift; sourceTree = "<group>"; };
+		09E49B732442938B00BA4593 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = ZMAppChallenge/Common/Extensions/UIViewControllerExtensions.swift; sourceTree = SOURCE_ROOT; };
+		09E49B752442943E00BA4593 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = ZMAppChallenge/Common/Extensions/StringExtensions.swift; sourceTree = SOURCE_ROOT; };
+		09F2A4212442C5B800B24BDD /* PostCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellViewModel.swift; sourceTree = "<group>"; };
 		72A0DB948BEFFB5EF13F7C5A /* Pods_ZMAppChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMAppChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E96C7B0132A2A9D0875173C /* Pods-ZMAppChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMAppChallenge.debug.xcconfig"; path = "Target Support Files/Pods-ZMAppChallenge/Pods-ZMAppChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		8EDB40729BC57B891797DCA5 /* Pods-ZMAppChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMAppChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-ZMAppChallengeTests/Pods-ZMAppChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 		0996B8442442D25D00CAD562 /* User */ = {
 			isa = PBXGroup;
 			children = (
-				0996B8452442D2A000CAD562 /* ZMUserInfoViewModel.swift */,
+				0996B8452442D2A000CAD562 /* UserInfoViewModel.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -188,7 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				09E49B002440D68100BA4593 /* DataSource */,
-				09E49AF6244015F800BA4593 /* ZMPostViewController.swift */,
+				09E49AF6244015F800BA4593 /* PostViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -206,8 +206,8 @@
 		0996B84B2442EB3600CAD562 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				09E49AF22440031B00BA4593 /* ZMPostViewModel.swift */,
-				09F2A4212442C5B800B24BDD /* ZMPostCellViewModel.swift */,
+				09E49AF22440031B00BA4593 /* PostViewModel.swift */,
+				09F2A4212442C5B800B24BDD /* PostCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 		0996B84C2442EB5C00CAD562 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				09E49B1D2441495300BA4593 /* ZMPostDetailViewModel.swift */,
+				09E49B1D2441495300BA4593 /* PostDetailViewModel.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -223,7 +223,7 @@
 		0996B84D2442EB6700CAD562 /* Comment */ = {
 			isa = PBXGroup;
 			children = (
-				09E49B2A244153E100BA4593 /* ZMCommentCellViewModel.swift */,
+				09E49B2A244153E100BA4593 /* CommentCellViewModel.swift */,
 			);
 			path = Comment;
 			sourceTree = "<group>";
@@ -231,7 +231,7 @@
 		0996B84E2442EB9F00CAD562 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				09E49AD2243F9F0F00BA4593 /* ZMPost.swift */,
+				09E49AD2243F9F0F00BA4593 /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -239,8 +239,8 @@
 		0996B84F2442EBAE00CAD562 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				09E49B282441523600BA4593 /* ZMComment.swift */,
-				09E49B202441498B00BA4593 /* ZMUser.swift */,
+				09E49B282441523600BA4593 /* Comment.swift */,
+				09E49B202441498B00BA4593 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -249,7 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				09E49B162441357E00BA4593 /* DataSource */,
-				09E49B17244135B700BA4593 /* ZMPostDetailViewController.swift */,
+				09E49B17244135B700BA4593 /* PostDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -266,7 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				0996B85824430A1D00CAD562 /* Post */,
-				0996B8562442F9F600CAD562 /* ZMDataManagerCacheProvider.swift */,
+				0996B8562442F9F600CAD562 /* DataManagerCacheProvider.swift */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -274,7 +274,7 @@
 		0996B85824430A1D00CAD562 /* Post */ = {
 			isa = PBXGroup;
 			children = (
-				0996B85924430A4B00CAD562 /* ZMPostCacheProvider.swift */,
+				0996B85924430A4B00CAD562 /* PostCacheProvider.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -318,12 +318,12 @@
 			isa = PBXGroup;
 			children = (
 				09E49B6124428C7D00BA4593 /* Mock */,
-				09E49B5F24428C0300BA4593 /* ZMDataManagerMockNetworkProvider.swift */,
+				09E49B5F24428C0300BA4593 /* DataManagerMockNetworkProvider.swift */,
 				09E49AC4243F76A200BA4593 /* ZMAppChallengeTests.swift */,
 				09E49AC6243F76A200BA4593 /* Info.plist */,
-				09E49B4224423C4300BA4593 /* ZMPostManagmentServiceTests.swift */,
-				09E49B48244248B300BA4593 /* ZMUserManagmentServiceTests.swift */,
-				09E49B4E24424B6B00BA4593 /* ZMCommentManagmentServiceTests.swift */,
+				09E49B4224423C4300BA4593 /* PostManagmentServiceTests.swift */,
+				09E49B48244248B300BA4593 /* UserManagmentServiceTests.swift */,
+				09E49B4E24424B6B00BA4593 /* CommentManagmentServiceTests.swift */,
 			);
 			path = ZMAppChallengeTests;
 			sourceTree = "<group>";
@@ -349,8 +349,8 @@
 		09E49AD4243FA17200BA4593 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				09E49B732442938B00BA4593 /* ZMUIViewControllerExtensions.swift */,
-				09E49B752442943E00BA4593 /* ZMStringExtensions.swift */,
+				09E49B732442938B00BA4593 /* UIViewControllerExtensions.swift */,
+				09E49B752442943E00BA4593 /* StringExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -369,9 +369,9 @@
 		09E49AD6243FA23000BA4593 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				09E49B082441073100BA4593 /* ZMTableViewCellProtocol.swift */,
-				09E49B302441596D00BA4593 /* ZMDataSourceProtocol.swift */,
-				0996B8422442CA3600CAD562 /* ZMViewModelServiceProtocol.swift */,
+				09E49B082441073100BA4593 /* TableViewCellProtocol.swift */,
+				09E49B302441596D00BA4593 /* DataSourceProtocol.swift */,
+				0996B8422442CA3600CAD562 /* ViewModelServiceProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -379,7 +379,7 @@
 		09E49ADB243FAD4100BA4593 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				09E49ADC243FAD6F00BA4593 /* ZMAppGlobalConstants.swift */,
+				09E49ADC243FAD6F00BA4593 /* AppGlobalConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -397,8 +397,8 @@
 		09E49ADF243FBB4A00BA4593 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				09E49AE4243FDB1F00BA4593 /* ZMDataManagerNetworkProvider.swift */,
-				09E49AF42440107C00BA4593 /* ZMNetworkBuilder.swift */,
+				09E49AE4243FDB1F00BA4593 /* DataManagerNetworkProvider.swift */,
+				09E49AF42440107C00BA4593 /* NetworkBuilder.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -406,8 +406,8 @@
 		09E49AE1243FBCD800BA4593 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				09E49B372442358900BA4593 /* ZMDataManagerNetworkProtocol.swift */,
-				0996B8542442F92400CAD562 /* ZMDataManagerCacheProtocol.swift */,
+				09E49B372442358900BA4593 /* DataManagerNetworkProtocol.swift */,
+				0996B8542442F92400CAD562 /* DataManagerCacheProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -425,7 +425,7 @@
 		09E49AF9244016CB00BA4593 /* Post */ = {
 			isa = PBXGroup;
 			children = (
-				09E49B5D244272C700BA4593 /* ZMPostManagmentService.swift */,
+				09E49B5D244272C700BA4593 /* PostManagmentService.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -444,7 +444,7 @@
 		09E49B002440D68100BA4593 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
-				09E49B012440D8BC00BA4593 /* ZMPostDataSource.swift */,
+				09E49B012440D8BC00BA4593 /* PostDataSource.swift */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -452,8 +452,8 @@
 		09E49B032440E51800BA4593 /* Post */ = {
 			isa = PBXGroup;
 			children = (
-				09E49B042440E53400BA4593 /* ZMDescriptionTableViewCell.swift */,
-				09E49B322441603600BA4593 /* ZMPostView.swift */,
+				09E49B042440E53400BA4593 /* DescriptionTableViewCell.swift */,
+				09E49B322441603600BA4593 /* PostView.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -461,8 +461,8 @@
 		09E49B0A24411DBE00BA4593 /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
-				09E49B0B24411DDD00BA4593 /* ZMLottieLoaderViewController.swift */,
-				09E49B0C24411DDD00BA4593 /* ZMLottieLoaderViewController.xib */,
+				09E49B0B24411DDD00BA4593 /* LottieLoaderViewController.swift */,
+				09E49B0C24411DDD00BA4593 /* LottieLoaderViewController.xib */,
 			);
 			path = Lottie;
 			sourceTree = "<group>";
@@ -487,7 +487,7 @@
 		09E49B162441357E00BA4593 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
-				09E49B2C2441585200BA4593 /* ZMCommentDataSource.swift */,
+				09E49B2C2441585200BA4593 /* CommentDataSource.swift */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -495,7 +495,7 @@
 		09E49B2224414A3A00BA4593 /* User */ = {
 			isa = PBXGroup;
 			children = (
-				09E49B2324414A4C00BA4593 /* ZMUserManagmentService.swift */,
+				09E49B2324414A4C00BA4593 /* UserManagmentService.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -503,7 +503,7 @@
 		09E49B25244151F300BA4593 /* Comment */ = {
 			isa = PBXGroup;
 			children = (
-				09E49B262441520C00BA4593 /* ZMCommentManagmentService.swift */,
+				09E49B262441520C00BA4593 /* CommentManagmentService.swift */,
 			);
 			path = Comment;
 			sourceTree = "<group>";
@@ -654,7 +654,7 @@
 				09E49ABA243F76A200BA4593 /* LaunchScreen.storyboard in Resources */,
 				09E49AFE2440D0E100BA4593 /* Localizable.strings in Resources */,
 				09E49AB7243F76A200BA4593 /* Assets.xcassets in Resources */,
-				09E49B0E24411DDD00BA4593 /* ZMLottieLoaderViewController.xib in Resources */,
+				09E49B0E24411DDD00BA4593 /* LottieLoaderViewController.xib in Resources */,
 				09E49B14244129CF00BA4593 /* 13605-deleted-successfully.json in Resources */,
 				09E49AB2243F76A000BA4593 /* Main.storyboard in Resources */,
 				09E49B13244129CF00BA4593 /* 18104-loading.json in Resources */,
@@ -746,38 +746,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09E49ADD243FAD6F00BA4593 /* ZMAppGlobalConstants.swift in Sources */,
-				09E49AF7244015F800BA4593 /* ZMPostViewController.swift in Sources */,
-				09E49B2B244153E100BA4593 /* ZMCommentCellViewModel.swift in Sources */,
-				09E49B18244135B700BA4593 /* ZMPostDetailViewController.swift in Sources */,
-				0996B8462442D2A000CAD562 /* ZMUserInfoViewModel.swift in Sources */,
-				09F2A4222442C5B800B24BDD /* ZMPostCellViewModel.swift in Sources */,
-				09E49B292441523600BA4593 /* ZMComment.swift in Sources */,
-				09E49B212441498B00BA4593 /* ZMUser.swift in Sources */,
-				09E49AF32440031B00BA4593 /* ZMPostViewModel.swift in Sources */,
-				0996B8552442F92400CAD562 /* ZMDataManagerCacheProtocol.swift in Sources */,
+				09E49ADD243FAD6F00BA4593 /* AppGlobalConstants.swift in Sources */,
+				09E49AF7244015F800BA4593 /* PostViewController.swift in Sources */,
+				09E49B2B244153E100BA4593 /* CommentCellViewModel.swift in Sources */,
+				09E49B18244135B700BA4593 /* PostDetailViewController.swift in Sources */,
+				0996B8462442D2A000CAD562 /* UserInfoViewModel.swift in Sources */,
+				09F2A4222442C5B800B24BDD /* PostCellViewModel.swift in Sources */,
+				09E49B292441523600BA4593 /* Comment.swift in Sources */,
+				09E49B212441498B00BA4593 /* User.swift in Sources */,
+				09E49AF32440031B00BA4593 /* PostViewModel.swift in Sources */,
+				0996B8552442F92400CAD562 /* DataManagerCacheProtocol.swift in Sources */,
 				09E49AAB243F76A000BA4593 /* AppDelegate.swift in Sources */,
-				09E49B092441073100BA4593 /* ZMTableViewCellProtocol.swift in Sources */,
-				09E49B2424414A4C00BA4593 /* ZMUserManagmentService.swift in Sources */,
-				09E49B0D24411DDD00BA4593 /* ZMLottieLoaderViewController.swift in Sources */,
-				09E49B312441596D00BA4593 /* ZMDataSourceProtocol.swift in Sources */,
-				09E49B5E244272C700BA4593 /* ZMPostManagmentService.swift in Sources */,
-				0996B85A24430A4B00CAD562 /* ZMPostCacheProvider.swift in Sources */,
-				09E49AE5243FDB1F00BA4593 /* ZMDataManagerNetworkProvider.swift in Sources */,
-				0996B8572442F9F600CAD562 /* ZMDataManagerCacheProvider.swift in Sources */,
+				09E49B092441073100BA4593 /* TableViewCellProtocol.swift in Sources */,
+				09E49B2424414A4C00BA4593 /* UserManagmentService.swift in Sources */,
+				09E49B0D24411DDD00BA4593 /* LottieLoaderViewController.swift in Sources */,
+				09E49B312441596D00BA4593 /* DataSourceProtocol.swift in Sources */,
+				09E49B5E244272C700BA4593 /* PostManagmentService.swift in Sources */,
+				0996B85A24430A4B00CAD562 /* PostCacheProvider.swift in Sources */,
+				09E49AE5243FDB1F00BA4593 /* DataManagerNetworkProvider.swift in Sources */,
+				0996B8572442F9F600CAD562 /* DataManagerCacheProvider.swift in Sources */,
 				09E49AAD243F76A000BA4593 /* SceneDelegate.swift in Sources */,
-				09E49B382442358900BA4593 /* ZMDataManagerNetworkProtocol.swift in Sources */,
-				09E49B332441603600BA4593 /* ZMPostView.swift in Sources */,
-				0996B8432442CA3600CAD562 /* ZMViewModelServiceProtocol.swift in Sources */,
-				09E49AD3243F9F0F00BA4593 /* ZMPost.swift in Sources */,
-				09E49B052440E53400BA4593 /* ZMDescriptionTableViewCell.swift in Sources */,
-				09E49AF52440107C00BA4593 /* ZMNetworkBuilder.swift in Sources */,
-				09E49B272441520C00BA4593 /* ZMCommentManagmentService.swift in Sources */,
-				09E49B2D2441585200BA4593 /* ZMCommentDataSource.swift in Sources */,
-				09E49B1E2441495300BA4593 /* ZMPostDetailViewModel.swift in Sources */,
-				09E49B022440D8BC00BA4593 /* ZMPostDataSource.swift in Sources */,
-				09E49B742442938B00BA4593 /* ZMUIViewControllerExtensions.swift in Sources */,
-				09E49B762442943E00BA4593 /* ZMStringExtensions.swift in Sources */,
+				09E49B382442358900BA4593 /* DataManagerNetworkProtocol.swift in Sources */,
+				09E49B332441603600BA4593 /* PostView.swift in Sources */,
+				0996B8432442CA3600CAD562 /* ViewModelServiceProtocol.swift in Sources */,
+				09E49AD3243F9F0F00BA4593 /* Post.swift in Sources */,
+				09E49B052440E53400BA4593 /* DescriptionTableViewCell.swift in Sources */,
+				09E49AF52440107C00BA4593 /* NetworkBuilder.swift in Sources */,
+				09E49B272441520C00BA4593 /* CommentManagmentService.swift in Sources */,
+				09E49B2D2441585200BA4593 /* CommentDataSource.swift in Sources */,
+				09E49B1E2441495300BA4593 /* PostDetailViewModel.swift in Sources */,
+				09E49B022440D8BC00BA4593 /* PostDataSource.swift in Sources */,
+				09E49B742442938B00BA4593 /* UIViewControllerExtensions.swift in Sources */,
+				09E49B762442943E00BA4593 /* StringExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,11 +785,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09E49B4324423C4300BA4593 /* ZMPostManagmentServiceTests.swift in Sources */,
-				09E49B6024428C0300BA4593 /* ZMDataManagerMockNetworkProvider.swift in Sources */,
-				09E49B4F24424B6B00BA4593 /* ZMCommentManagmentServiceTests.swift in Sources */,
+				09E49B4324423C4300BA4593 /* PostManagmentServiceTests.swift in Sources */,
+				09E49B6024428C0300BA4593 /* DataManagerMockNetworkProvider.swift in Sources */,
+				09E49B4F24424B6B00BA4593 /* CommentManagmentServiceTests.swift in Sources */,
 				09E49AC5243F76A200BA4593 /* ZMAppChallengeTests.swift in Sources */,
-				09E49B49244248B300BA4593 /* ZMUserManagmentServiceTests.swift in Sources */,
+				09E49B49244248B300BA4593 /* UserManagmentServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -873,7 +873,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -927,7 +927,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -943,6 +943,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LMPL8JT7Y7;
 				INFOPLIST_FILE = ZMAppChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -961,6 +962,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LMPL8JT7Y7;
 				INFOPLIST_FILE = ZMAppChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -981,7 +983,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZMAppChallengeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1003,7 +1005,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZMAppChallengeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

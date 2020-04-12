@@ -14,8 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         let appearance = UINavigationBar.appearance()
-        appearance.tintColor = ZMAppGlobalConstants.appNavMainTintColor
-        appearance.barTintColor = ZMAppGlobalConstants.appNavMainColor
+        appearance.tintColor = AppGlobalConstants.appNavMainTintColor
+        appearance.barTintColor = AppGlobalConstants.appNavMainColor
         appearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
 
         return true
