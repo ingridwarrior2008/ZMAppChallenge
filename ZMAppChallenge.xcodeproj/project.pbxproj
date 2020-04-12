@@ -15,7 +15,6 @@
 		09E49AAB243F76A000BA4593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AAA243F76A000BA4593 /* AppDelegate.swift */; };
 		09E49AAD243F76A000BA4593 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AAC243F76A000BA4593 /* SceneDelegate.swift */; };
 		09E49AB2243F76A000BA4593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E49AB0243F76A000BA4593 /* Main.storyboard */; };
-		09E49AB5243F76A000BA4593 /* ZMAppChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AB3243F76A000BA4593 /* ZMAppChallenge.xcdatamodeld */; };
 		09E49AB7243F76A200BA4593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E49AB6243F76A200BA4593 /* Assets.xcassets */; };
 		09E49ABA243F76A200BA4593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E49AB8243F76A200BA4593 /* LaunchScreen.storyboard */; };
 		09E49AC5243F76A200BA4593 /* ZMAppChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49AC4243F76A200BA4593 /* ZMAppChallengeTests.swift */; };
@@ -83,7 +82,6 @@
 		09E49AAA243F76A000BA4593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09E49AAC243F76A000BA4593 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		09E49AB1243F76A000BA4593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		09E49AB4243F76A000BA4593 /* ZMAppChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZMAppChallenge.xcdatamodel; sourceTree = "<group>"; };
 		09E49AB6243F76A200BA4593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09E49AB9243F76A200BA4593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09E49ABB243F76A200BA4593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -437,7 +435,6 @@
 			children = (
 				09E49B3E24423BC800BA4593 /* JSON */,
 				09E49B3B244236C900BA4593 /* Assets */,
-				09E49B3A244236BB00BA4593 /* CoreData */,
 				09E49B39244236A500BA4593 /* Storyboards */,
 				09E49B0F244129B200BA4593 /* Locale */,
 			);
@@ -518,14 +515,6 @@
 				09E49AB0243F76A000BA4593 /* Main.storyboard */,
 			);
 			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		09E49B3A244236BB00BA4593 /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				09E49AB3243F76A000BA4593 /* ZMAppChallenge.xcdatamodeld */,
-			);
-			path = CoreData;
 			sourceTree = "<group>";
 		};
 		09E49B3B244236C900BA4593 /* Assets */ = {
@@ -775,7 +764,6 @@
 				09E49B5E244272C700BA4593 /* ZMPostManagmentService.swift in Sources */,
 				0996B85A24430A4B00CAD562 /* ZMPostCacheProvider.swift in Sources */,
 				09E49AE5243FDB1F00BA4593 /* ZMDataManagerNetworkProvider.swift in Sources */,
-				09E49AB5243F76A000BA4593 /* ZMAppChallenge.xcdatamodeld in Sources */,
 				0996B8572442F9F600CAD562 /* ZMDataManagerCacheProvider.swift in Sources */,
 				09E49AAD243F76A000BA4593 /* SceneDelegate.swift in Sources */,
 				09E49B382442358900BA4593 /* ZMDataManagerNetworkProtocol.swift in Sources */,
@@ -1060,19 +1048,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		09E49AB3243F76A000BA4593 /* ZMAppChallenge.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				09E49AB4243F76A000BA4593 /* ZMAppChallenge.xcdatamodel */,
-			);
-			currentVersion = 09E49AB4243F76A000BA4593 /* ZMAppChallenge.xcdatamodel */;
-			path = ZMAppChallenge.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 09E49A9F243F76A000BA4593 /* Project object */;
 }
